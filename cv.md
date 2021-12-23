@@ -37,7 +37,8 @@ I finished a computer technologies facult. I learned C# and .net technologies. A
 
 **Adding dynamic trash button to each film on Film site**
 
-```function addTrash(item) {
+```
+function addTrash(item) {
     const ulWatchedFilms = document.querySelector("#watched-films");
     const trashButton = document.createElement("button");
     trashButton.classList = ".trash";
