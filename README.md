@@ -1,1 +1,1 @@
-https://retouch226.github.io/rsschool-cv/cv
+https://retouch226.github.io/rsschool-cv/
