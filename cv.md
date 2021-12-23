@@ -1,3 +1,7 @@
+## [**Cv**](https://retouch226.github.io/rsschool-cv/cv)
+
+---
+
 # Ivan Paias
 
 ---
@@ -11,8 +15,7 @@
 **Phone:** +38 096 1657493
 **E-mail:** retouch226@gmail.com
 **Telegram:** @oboloncss
-**LinkedIn**
-**Behance**
+[**Instagram**](https://www.instagram.com/iv_retouch/)
 
 ---
 
