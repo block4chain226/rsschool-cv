@@ -43,7 +43,7 @@ function addTrash(item) {
     const trashButton = document.createElement("button");
     trashButton.classList = ".trash";
     var lidelete;
-    const li = ulWatchedFilms.querySelectorAll("li");
+    const li = ulWatchedFilms.querySelectorAll("li")
     const itemPoints = item + "...";
     console.log(itemPoints);
     li.forEach((itemLi) => {
