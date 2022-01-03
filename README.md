@@ -1,1 +1,1 @@
-# rsschool-cv
+https://retouch226.github.io/rsschool-cv/
