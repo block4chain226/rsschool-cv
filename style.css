@@ -137,4 +137,143 @@ li {
   width: 100%;
   background-color: #424753;
 }
+
+.main {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__name {
+  padding: 60px 80% 60px 20px;
+}
+
+.header h1 {
+  font-size: 80px;
+  color: #363636;
+  font-weight: bold;
+  line-height: 1.05;
+}
+
+.header h2 {
+  font-size: 25px;
+  color: #363636;
+  line-height: 1.111;
+  font-weight: 400;
+}
+
+.profile__text {
+  text-align: justify;
+  padding: 30px 20px 30px 20px;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.experience__content {
+  padding: 30px 20px 30px 20px;
+  font-size: 16px;
+  color: #555555;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 400;
+}
+
+.experience__year {
+  margin-right: 160px;
+}
+
+.experience__vacancy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.experience__title {
+  font-weight: 600;
+}
+
+.skills__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 20px 30px 20px;
+  font-size: 16px;
+  color: #555555;
+  font-weight: 400;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills__content span {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 25px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container__circle {
+  display: inline-block;
+}
+
+.container__text {
+  display: inline-block;
+}
+
+.circle {
+  width: 10px;
+  margin-right: 3px;
+  height: 10px;
+  margin-top: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.yellow-back {
+  background-color: #f2c100;
+}
+
+.title {
+  padding-left: 30px;
+  background-color: #ebebeb;
+  display: inline-block;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
