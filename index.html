@@ -161,19 +161,57 @@
               </div> -->
               </div>
             </section>
+            <section class="code">
+              <h3 class="title">Code example</h3>
+              <div class="code__content">
+              <div class="code__explain">
+                <span>Adding dynamic trash button to each film on Film site</span>
+              </div>
+              <div class="code__text">
+                <p>
+               <pre><code>
+  function addTrash(item) {
+    const ulWatchedFilms = document.querySelector("#watched-films");
+    const trashButton = document.createElement("button");
+    trashButton.classList = ".trash";
+    var lidelete;
+    const li = ulWatchedFilms.querySelectorAll("li")
+    const itemPoints = item + "...";
+    console.log(itemPoints);
+    li.forEach((itemLi) => {
+      if (itemLi.textContent == item || itemLi.textContent.length > 21) {
+        lidelete = itemLi;
+        itemLi.parentNode.append(trashButton);
+      }
+    });
+    trashButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      const i = movieDB.movies.indexOf(item);
+      movieDB.movies.splice(i, 1);
+      console.log(movieDB.movies);
+      trashButton.parentNode.remove();
+    });
+  }
+                </code></pre> 
+              </p>
+              </div>
+              </div>
+              
+            </section>
+            <!--Footer-->
+            <footer class="footer">
+              <span class="footer__line"></span>
+              <div class="text">
+                <a href="https://github.com/retouch226 ">GitHub</a>
+                <div class="img1">
+                  <a href="https://rs.school/js/"
+                    ><img src="/logo.svg" alt="Logo"
+                  /></a>
+                </div>
+              </div>
+            </footer>
           </div>
         </main>
-        <!--Footer-->
-        <!-- <footer class="footer">
-          <span class="footer__line">Apperation</span>
-          <div class="text">
-            <span
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-              velit vero odit unde eveniet debitis non magnam adipisci natus
-              distinctio!</span
-            >
-          </div>
-        </footer> -->
       </div>
     </div>
   </body>
