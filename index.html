@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <!--Navigation-->
+        <nav class="navigation">
+          <section class="avatar">
+            <div class="img">
+              <img src="/avatar.jpg" alt="Avatar" />
+            </div>
+          </section>
+          <section class="contact">
+            <h2>Contact</h2>
+            <div class="contact__info">
+              <ul class="">
+                <div class="contact__block">
+                  <li><span>Phone</span><span>+38 096 1657493</span></li>
+                </div>
+                <div class="contact__block">
+                  <li>
+                    <span>Email</span
+                    ><span><a href="">retouch226@gmail.com</a></span>
+                  </li>
+                </div>
+                <div class="contact__block">
+                  <li>
+                    <span>Telegram</span><span><a href="">@oboloncss</a></span>
+                  </li>
+                </div>
+                <div class="contact__block">
+                  <li>
+                    <span><a href="">Instagram</a></span>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </section>
+          <section class="contact">
+            <h2>Education</h2>
+            <div class="contact__info">
+              <span>2008 - 2013</span>
+              <span>Bachelor</span>
+              <span>Khmelnitsky National university</span>
+            </div>
+          </section>
+          <!-- <section class="education">
+            <h2>Education</h2>
+            <div class="education__info">
+              <span>2008 - 2013</span>
+              <span>Bachelor</span>
+              <span>Khmelnitsky National university</span>
+            </div>
+          </section> -->
+        </nav>
+        <!--Main-->
+        <main class="main">
+          <div class="container-content">
+            <header class="header">
+              <div class="header__name">
+                <h1>Ivan Paias</h1>
+                <h2>Front-End Developer</h2>
+              </div>
+            </header>
+            <section class="profile">
+              <h2 class="title">Profile</h2>
+              <div class="profile__text">
+                <span
+                  >I finished a computer technologies facult. I learned C# and
+                  .net technologies. After university I am having starting my
+                  career as high-end retoucher I learned most useful retouching
+                  techniques and got a first work in 2 weeks. I am working as a
+                  retoucher by nowadays but was interesting in programming from
+                  university. My profession give me a lot of freedom and extra
+                  free time that I using to study front-end development. I love
+                  to programming, create something new by my hands, resolve a
+                  problems, then optimising it for better performance and see
+                  the result. I like to invent a good program architecture. I am
+                  always trying to learn something new to gain new skills.</span
+                >
+              </div>
+            </section>
+            <section class="experience">
+              <h2 class="title">Ecperience</h2>
+              <div class="experience__content">
+                <div class="experience__year">
+                  <span>2010 - Present</span>
+                  <span>Freelancer</span>
+                </div>
+                <div class="experience__vacancy">
+                  <div class="experience__title">High-End Photo Retouching</div>
+                  <div class="experience__text">
+                    Photo post-production using dodge&techniques
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="skills">
+              <h2 class="title">Skills</h2>
+              <div class="skills__content">
+                <div class="skills__container container">
+                  <div class="container__text">
+                    <span class="">HTML5, CSS3</span>
+                  </div>
+                  <div class="container__circle">
+                    <span class="circle yellow-back"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                  </div>
+                </div>
+                <div class="skills__container container">
+                  <div class="container__text">
+                    <span class="">JsBasics</span>
+                  </div>
+                  <div class="container__circle">
+                    <span class="circle yellow-back"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                  </div>
+                </div>
+                <div class="skills__container container">
+                  <div class="container__text">
+                    <span class="">Photoshop</span>
+                  </div>
+                  <div class="container__circle">
+                    <span class="circle yellow-back"></span>
+                    <span class="circle yellow-back"></span>
+                    <span class="circle yellow-back"></span>
+                    <span class="circle yellow-back"></span>
+                  </div>
+                </div>
+                <div class="skills__container container">
+                  <div class="container__text">
+                    <span class="">LightRoom</span>
+                  </div>
+                  <div class="container__circle">
+                    <span class="circle yellow-back"></span>
+                    <span class="circle yellow-back"></span>
+                    <span class="circle yellow-back"></span>
+                    <span class="circle yellow-back"></span>
+                  </div>
+                </div>
+                <!-- <div class="skills__container">
+                <span>JavaScript Basics</span>
+              </div>
+              <div class="skills__container"><span>Git, GitHub</span></div>
+              <div class="skills__container">
+                <span>VS Code, Ms Visual Studio</span>
+              </div>
+              <div class="skills__container">
+                <span>Adobe Photoshop, LightRoom</span>
+              </div> -->
+              </div>
+            </section>
+            <section class="code">
+              <h3 class="title">Code example</h3>
+              <div class="code__content">
+              <div class="code__explain">
+                <span>Adding dynamic trash button to each film on Film site</span>
+              </div>
+              <div class="code__text">
+                <p>
+               <pre><code>
+  function addTrash(item) {
+    const ulWatchedFilms = document.querySelector("#watched-films");
+    const trashButton = document.createElement("button");
+    trashButton.classList = ".trash";
+    var lidelete;
+    const li = ulWatchedFilms.querySelectorAll("li")
+    const itemPoints = item + "...";
+    console.log(itemPoints);
+    li.forEach((itemLi) => {
+      if (itemLi.textContent == item || itemLi.textContent.length > 21) {
+        lidelete = itemLi;
+        itemLi.parentNode.append(trashButton);
+      }
+    });
+    trashButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      const i = movieDB.movies.indexOf(item);
+      movieDB.movies.splice(i, 1);
+      console.log(movieDB.movies);
+      trashButton.parentNode.remove();
+    });
+  }
+                </code></pre> 
+              </p>
+              </div>
+              </div>
+              
+            </section>
+            <!--Footer-->
+            <footer class="footer">
+              <span class="footer__line"></span>
+              <div class="text">
+                <a href="https://github.com/retouch226 ">GitHub</a>
+                <div class="img1">
+                  <a href="https://rs.school/js/"
+                    ><img src="/logo.svg" alt="Logo"
+                  /></a>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
